@@ -1,6 +1,6 @@
 var cacheName = 'cache-2.27';
 self.addEventListener('install', event => {
-    event.waitUntil(caches.open(cacheName).then(cache => cache.addAll(['/', '/index.html', '/index.js', '/blogindex.html', '/contact.html', '/menu.js', '/style.css', '/images/', '/images/coolerhq.jpg', '/images/cooler.jpg', '/images/hqwtf.png', '/images/wtf.jpg', '/blog/about-me.html', '/blog/battlebots.html', '/blog/changed.html', '/blog/dhcp-issues.html', '/blog/dpms-in-xorg.html', '/blog/hello.html', '/blog/linux-on-smartphone.html', '/blog/linux-on-smartphone-progress.html', '/blog/liquid-metal.html', '/blog/mobile-version.html', '/blog/my-new-blog.html', '/blog/port-forwarding.html', '/blog/redmi-note-4-boot-splash.html', '/blog/roadmap.html', '/blog/secrets.html', '/blog/wtf.html'])).then(skip => {
+    event.waitUntil(caches.open(cacheName).then(cache => cache.addAll(['/', '/index.html', '/index.js', '/blogindex.html', '/contact.html', '/menu.js', '/style.css'])).then(skip => {
         return self.skipWaiting()
     }))
 });
