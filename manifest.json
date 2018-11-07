@@ -1,0 +1,26 @@
+{
+	"name": "Ilya_MZP Blog",
+	"short_name": "MZP Blog",
+	"description": "Blog of Ilya_MZP (Ilya Kovchenkov)",
+	"start_url": "/index.html",
+	"display": "standalone",
+	"orientation": "portrait",
+	"background_color": "#A9A9A9",
+	"theme_color": "#FAB81E",
+	"icons": [
+		{
+			"src": "./images/icons/android-chrome-192x192.png",
+			"type": "image/png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "./images/icons/android-chrome-512x512.png",
+			"type": "image/png",
+			"sizes": "512x512"
+		}
+	],
+	"author": {
+		"name": "Ilya Alekseevich Kovchenkov",
+		"website": "https://mzp.dedyn.io"
+	}
+}
