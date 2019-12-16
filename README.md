@@ -8,4 +8,4 @@ Subscription info is sent using WebSocket.<br/>
 Luke Smith's blog script to manage posts https://github.com/LukeSmithxyz/lb<br/>
 
 ## Example
-https://mzp.dedyn.io
+https://mzp.icu
